@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="./assets/css/css/styledashboard.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <div class="info-header">
+            <div class="logo">
+                <h3>E-commerce</h3>
+            </div>
+            <div class="icons-header">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+        
+
+        <div class="info-header">
+         
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-envelope"></i>
+            <i class="fa-solid fa-user"></i>
+        </div>
+    </header>
+
+
+    <!--FIM HEADER-->
+
+    <section class="main">
+        <div class="sidebar">
+            <h3>layout</h3>
+            <a href="#"><i class="fa-solid fa-house"></i> Dashboard</a>
+            <a href="#"><i class="fa-solid fa-bars-staggered"></i> Componentes</a>
+            <br />
+            <hr>
+            <h3>forms & tables</h3>
+            <a href="#"><i class="fa-regular fa-window-restore"></i> Relatórios</a>
+            <a href="#"><i class="fa-regular fa-window-restore"></i> Dados</a>
+
+            <br />
+            <hr>
+            <a href="#"><i class="fa-solid fa-suitcase"></i> Carreiras</a>
+            <a href="#"><i class="fa-solid fa-question"></i> FAQ</a>
+            <a href="#"><i class="fa-solid fa-gear"></i> Configurações</a>
+            <a href="#"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+            <br />
+            <hr>
+        </div>
+        <!--sidebar-->
+        
+        <div class="content">
+            <div class="titulo-secao">
+                <h2>Dashboard Sale</h2>
+                <br>
+                <div class="separator"></div>
+                <br>
+                <p><i class="fa-solid fa-house"></i>/ Dashboard E-commerce</p>
+            </div>
+
+            <div class="box-info">
+                    <div style="background:linear-gradient(45deg, #FF5370, #ff869a);" class="box-info-single">
+                        <div class="info-text">
+                            <h3>Total Profit</h3>
+                            <p>$1.739</p>
+                        </div>
+                        <i class="fa-solid fa-money-check-dollar"></i>
+                    </div>
+                    <div style="background:linear-gradient(45deg, #4099ff, #73b4ff);" class="box-info-single">
+                        <div class="info-text">
+                            <h3>Total Orders</h3>
+                            <p>$12.890</p>
+                        </div>
+                        <i class="fa-solid fa-coins"></i>
+                    </div>
+                    <div style="background:linear-gradient(45deg, #2ed8b6, #59e0c5);" class="box-info-single">
+                        <div class="info-text">
+                            <h3>Average Price</h3>
+                            <p>$3.476</p>
+                        </div>
+                        <i class="fa-solid fa-dollar-sign"></i></i>
+                    </div>
+                    <div style="background:linear-gradient(45deg, #FEBB14, #F3B10F);" class="box-info-single">
+                        <div class="info-text">
+                            <h3>Product Solid</h3>
+                            <p>$8.341</p>
+                        </div>
+                        <i class="fa-solid fa-tags"></i>    
+                    </div>
+            </div>
+
+            <div class="feed">
+                <div class="feed-single">
+                    <div class="feed-text">
+                        <i class="fa-solid fa-bell"></i>
+                        <span>Dashboard E-commerce</span>
+                    </div>
+                    <div class="feed-time"> 
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Data</th>
+                                    <th>Tipo de Transação</th>
+                                    <th>Descrição</th>
+                                    <th>Quantidade</th>
+                                    <th>Categoria</th>
+                                    <th>Status</th>
+                                    <th>Ação</th>
+                                </tr>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            2024-15-06
+                                        </td>
+                                        <td>Despesas</td>
+                                        <td>Material de Escritório</td>
+                                        <td>$250</td>
+                                        <td>Despesas de Escritório</td>
+                                        <td>Pendente</td>
+                                        <td><button>Editar</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            2024-15-06
+                                        </td>
+                                        <td>Renda</td>
+                                        <td>Pagamento do Cliente</td>
+                                        <td>$500</td>
+                                        <td>Vendas</td>
+                                        <td>Concluído</td>
+                                        <td><button>Editar</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            2024-15-06
+                                        </td>
+                                        <td>Despesas</td>
+                                        <td>Despesas de Viagem</td>
+                                        <td>$250</td>
+                                        <td>Viagem</td>
+                                        <td>Pendente</td>
+                                        <td><button>Editar</button></td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="7">Total: $1.000</td>
+                                    </tr>
+                                </tfoot>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+
+</body>
+</html>
